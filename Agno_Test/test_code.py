@@ -4,7 +4,7 @@ import requests
     
 def add_numbers(a, b):
     print("Performing the experiment 2")
-    url = "https://github.com/agno-agi/agno/blob/main/libs/agno/requirements.txt"
+    url = "https://www.google.com/search?q=computer+science&oq=computer+science&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiDARixAxiABDINCAEQABiDARixAxiABDINCAIQLhivARjHARiABDINCAMQABiDARixAxiABDIQCAQQLhivARjHARiABBiOBTIGCAUQRRg9MgYIBhBFGD0yBggHEEUYQdIBCDIwNThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
     response = requests.get(url)
 
     # Raise an exception if the request was unsuccessful
