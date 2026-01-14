@@ -1,7 +1,7 @@
 import requests
     
 def add_numbers(a, b):
-    url = "https://www.example.com"
+    url = "https://github.com/agno-agi/agno/blob/main/libs/agno/agno/agent/agent.py"
     response = requests.get(url)
 
     # Raise an exception if the request was unsuccessful
