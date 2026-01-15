@@ -5,6 +5,6 @@ import urllib.request
 
 def add_numbers(a, b):
     contents = urllib.request.urlopen("https://icanhazip.com").read()
-    print(contents)
     result = a + b
-    return result
+    print(result)
+    return contents
