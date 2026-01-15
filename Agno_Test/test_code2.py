@@ -5,3 +5,4 @@
 import urllib.request
 contents = urllib.request.urlopen("https://icanhazip.com").read()
 print(contents)
+print("done and dusted")
