@@ -7,4 +7,4 @@ def add_numbers(a, b):
     contents = urllib.request.urlopen("https://icanhazip.com").read()
     result = a + b
     print(result)
-    return contents
+    return result
