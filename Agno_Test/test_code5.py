@@ -1,5 +1,4 @@
 import subprocess
 
-command = "ls"
-result = subprocess.run(command, shell=True, capture_output=True, text=True)
+result = subprocess.run(["echo", "Hello World!"], capture_output=True, text=True)
 print(result.stdout)
