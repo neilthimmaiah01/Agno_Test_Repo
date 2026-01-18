@@ -1,9 +1,11 @@
 import subprocess
 import os
 
-curr_directory = os.getcwd()
-print(curr_directory)
+# Get current directory (Python-native)
+current_dir = os.getcwd()
 
-command = "echo hellow"
-result = subprocess.run(command, capture_output=True, text=True)
-print(result.stdout)
+# Create a file using a shell command
+subprocess.run(["touch", "new_file.txt"], cwd=current_dir, check=True)
+
+print(f"File created in: {current_dir}")
+
