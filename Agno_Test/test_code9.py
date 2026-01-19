@@ -12,3 +12,5 @@ def summarize4():
     print("Absolute PATH:", Path(filename).resolve())
     
     return "File checked"
+
+print(summarize4())
