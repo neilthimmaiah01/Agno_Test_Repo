@@ -11,7 +11,7 @@ def summarize4():
     # Open a file in write mode ('w') and write content to it
     filename = "summary.txt"
     
-    file_path.unlink()
+    Path(filename).unlink()
 
     # Verify
     print("Current wrk directory:", os.getcwd())
