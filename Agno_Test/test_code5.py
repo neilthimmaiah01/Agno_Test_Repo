@@ -17,4 +17,4 @@ def summarize():
   print(f"File created in: {current_dir}")
   subprocess.run(["rm", "new_file.txt"], cwd=current_dir, check=True)                                                                   
   print("File that was created has been removed")                                                                          
-
+  return "Completed"
