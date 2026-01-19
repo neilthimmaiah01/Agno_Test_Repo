@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from pathlib import Path
+import os
 
 def summarize():
     url = 'https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html'
