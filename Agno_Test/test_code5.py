@@ -10,7 +10,7 @@ def add_numbers(a, b):
 import requests
 from bs4 import BeautifulSoup
 
-import subprocess
+from pathlib import Path
 
 def summarize():
     url = 'https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html'
@@ -21,7 +21,9 @@ def summarize():
 def summarize2():
     # Open a file in write mode ('w') and write content to it
     filename = "summary.txt"
-    subprocess.run(["touch", filename], check=True, text=True)\
+    
+    Path(filename).write_text("", encoding="utf-8")
+
     
     return "File created"
 
