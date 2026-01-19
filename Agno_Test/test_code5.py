@@ -24,6 +24,11 @@ def summarize2():
     
     Path(filename).write_text("", encoding="utf-8")
 
+    # Verify
+    print("Current working directory:", os.getcwd())
+    print("File exists?", Path(filename).exists())
+    print("Absolute path:", Path(filename).resolve())
+
     
     return "File created"
 
