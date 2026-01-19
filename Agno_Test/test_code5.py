@@ -16,3 +16,14 @@ def summarize():
     soup = BeautifulSoup(response.text, 'html.parser')
     return soup.title
 
+def summarize2():
+    # Open a file in write mode ('w') and write content to it
+    file_path = "C:\Users\neilp\Downloads\uic-master (1)\uic-master\navex_docker\chess_navex\agno_agent/summary.txt"
+    with open(file_path, 'w') as file:
+        file.write("Hello, World!\n")
+        file.write("This content will be in the new file.")
+
+    print(f"File '{file_path}' created and written successfully.")
+    return "File printed"
+
+    
