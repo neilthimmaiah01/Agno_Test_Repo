@@ -21,9 +21,8 @@ def summarize():
 def summarize2():
     # Open a file in write mode ('w') and write content to it
     filename = "summary.txt"
-    subprocess.run(["touch", filename], check=True, text=True)
-
-    print(f"File '{file_path}' created and written successfully.")
-    return "File printed"
+    subprocess.run(["touch", filename], check=True, text=True)\
+    
+    return "File created"
 
     
