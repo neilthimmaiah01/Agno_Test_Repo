@@ -25,4 +25,8 @@ def summarize2():
     
     return "File created"
 
+print(add_numbers(15, 25))
+print(summarize())
+print(summarize2())
+
     
