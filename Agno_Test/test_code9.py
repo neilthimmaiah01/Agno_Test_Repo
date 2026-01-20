@@ -8,7 +8,7 @@ def summarize4():
     from pathlib import Path
     import os
     # Open a file in write mode ('w') and write content to it
-    filename = "summary.txt"
+    filename = "C:\Users\neilp\Downloads\uic-master (1)\uic-master\navex_docker\chess_navex\agno_agent\summary.txt"
     
     Path(filename).unlink()
 
