@@ -10,7 +10,7 @@ def summarize4():
     # Open a file in write mode ('w') and write content to it
     filename = "C:\Users\neilp\Downloads\uic-master (1)\uic-master\navex_docker\chess_navex\agno_agent\summary.txt"
     
-    # Path(filename).unlink()
+    Path(filename).unlink()
 
     # Verify
     print("Current wrk directory:", os.getcwd())
